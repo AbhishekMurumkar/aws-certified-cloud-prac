@@ -1,3 +1,5 @@
+## Creating a Security Group
+
 1. Root Account > AWS Console Home > IAM > User Groups -- Here you will see list of users present in your console
 2. Now open an incognito tab, login to any admin user > AWS Console Home > IAM > Users -- This is present in admin console
 3. Now From Root Account console, take a user and click on `Remove User` for which the group permission are removed for that user
@@ -44,12 +46,20 @@ Enter access key, secret key and your aws desired location to complete the setup
 This command should show the list of all users present in your aws account
 
 ---
-## IAM Handson
+## IAM Handson -- Manditory way to provide roles to our ec2 instances without using aws configure
 
-1. IAM Home -> ROles -> Click on `create role`
-2. choose `AWS Services` -> from Use Case section, choose `EC2` -> Next
-3. Now in policy section, you need to attach the necessary policy to your ec2 instance, choose `IAM Read Only Access` -> Next
-4. give a role name -> finally click `create`
+1. Creating A Role
+   1. IAM Home -> ROles -> Click on `create role`
+   2. choose `AWS Services` -> from Use Case section, choose `EC2` -> Next
+   3. Now in policy section, you need to attach the necessary policy to your ec2 instance, choose `IAM Read Only Access` -> Next
+   4. give a role name (in our case DemoIAMRole) -> finally click `create`
+2. Attaching the role to an existing EC2 Instance
+   1. Go to Ec2 Console -> Choose your Instance (if none are present, spin up a free instance) -> On top click `Actions`
+   2. choose `Security` -> `Change IAM Roles` -> Choose the required IAM Role from dropdown (in our case it is DemoIAMRole) -> hit `Save`
+3. Now Testing the Role
+   1. Connect to your EC2 Instance from AWS Cloud Connect or SSH
+   2. run cmd `aws iam list-users` on remote cli of Ec2 Instance
+   3. This should show you list of all users from your IAM Users
 
 ---
 

@@ -39,11 +39,14 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
    2. Security analysis and maintainance
    3. configuration management
    4. Compliance Validation
+   5. Isolation of physical hosts
 2. You are responsible for (Obviously how proerly you use given infrastructure)
    1. User and Group and Policies management and monitorning
    2. MFA enforcing on all accounts
-   3. Use IAM tools to apply appropriate permissions to anyone
-   4. Analyze access patterns and review permission to others users
+   3. Security Groups
+   4. OS Updates and Patches, Software installation and update and their mainataince
+   5. Use IAM tools to apply appropriate permissions to anyone
+   6. Analyze access patterns and review permission to others users
 
 ![](./screenshots/2022-10-19-21-55-21.png)
 ---
