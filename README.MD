@@ -13,7 +13,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
   * Private
   * Public
   * Hybrid
-* Types of Cloud Computing
+* # Types of Cloud Computing
   * # IAAS:
     1. providing networking, computers and datastorages
     2. highest level of flexibility
@@ -49,6 +49,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
    6. Analyze access patterns and review permission to others users
 
 ![](./screenshots/2022-10-19-21-55-21.png)
+
 ---
 
 ## Glossary
@@ -56,13 +57,14 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
 1. files
 2. IAM
 3. EC2
-4. EC2 Internal Storage
-5. Load Balancing
+   1. EC2 Internal Storage
+   2. AMI
+4. Load Balancing
    1. ELB (Load Balancing)
    2. ASG (Load Balancing)
    3. Auto scaling
-6. S3
-7. Databases
+5. S3
+6. Databases
    1. RDS
    2. Elastic Cache
    3. Dynamo DB
@@ -75,7 +77,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
    10. Glue
    11. DMS
    12. Analytics
-8. Compute Engines like EC2
+7. Compute Engines like EC2
    1. Docker
    2. ECS
    3. Fargate
@@ -86,7 +88,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
    6. API Gateway
    7. Batch
    8. LightSail
-9. Deployments & Managing Infrastructure
+8. Deployments & Managing Infrastructure
    1. Cloud Formatiom
    2. CDK
    3. BeanStalk
@@ -99,7 +101,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
    10. Cloud9
    11. Systems Manager(SSM)
    12. Ops
-10. Routes/Global/Live Application
+9.  Routes/Global/Live Application
     1. ROute S3
     2. CloudFront
     3. Transfer Accelaration
@@ -107,12 +109,12 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
     5. AWS WaveLengths
     6. AWS LocalZones
     7. Global Applications Architecture
-11. Cloud Integrations
+10. Cloud Integrations
     1. SQS
     2. Kinesis
     3. SNS
     4. Amazon MQ
-12. Cloud Monitoring
+11. Cloud Monitoring
     1. CloudWatch Metrics
     2. CloudWatch Alarms
     3. EventBridge
@@ -120,7 +122,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
     5. X-Ray
     6. CodeGuru
     7. Service Health dashboard
-13. VPC & Networking
+12. VPC & Networking
     1. VPC
     2. Subnet, Internet Gateway, NAT Gateway
     3. Security Groups, Network Access Control List
@@ -132,7 +134,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
     9. Site to Site connect
     10. client vpn
     11. transit gateway overview
-14. Security
+13. Security
     1. DDOS protection
     2. Pentesting
     3. Encryption with KMS & CloudHSM
@@ -146,7 +148,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
     11. Security Hub
     12. Amazon Detective
     13. AWS Abuse
-15. Machine Learning
+14. Machine Learning
     1. Rekognition
     2. Transribe
     3. Polly
@@ -158,7 +160,7 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
     9. Kendra
     10. personalize
     11. Textract
-16. Account & Billing Management
+15. Account & Billing Management
     1.  Organisation
     2.  AWS Control Tower
     3.  Pricing Models
@@ -169,28 +171,28 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
     8.  AWS Trusted Advisors
     9.  Support Plans for AWS
     10. Accounts Best Practices
-17. Advanced Identity
+16. Advanced Identity
     1.  STS
     2.  Cognito
     3.  Directory Service
     4.  AWS IAM Identity Center
-18. Workspace
-19. AppStream 2.0
-20. Sumerian
-21. Iot Core
-22. Elastic Transcode
-23. AppSync
-24. Amplify
-25. AppSync
-26. AWS Backups
-27. Disastor Recovery Strategies -- AWS Elatic Disaster Recovery
-28. AWS DataSync
-29. Application Direcoty & Migration service
-30. AWS Fault INjection SImulator
-31. Step function
-32. Ground Function
-33. AWS Pinpoint
-34. AWS Architecture & Eco System
+17. Workspace
+18. AppStream 2.0
+19. Sumerian
+20. Iot Core
+21. Elastic Transcode
+22. AppSync
+23. Amplify
+24. AppSync
+25. AWS Backups
+26. Disastor Recovery Strategies -- AWS Elatic Disaster Recovery
+27. AWS DataSync
+28. Application Direcoty & Migration service
+29. AWS Fault INjection SImulator
+30. Step function
+31. Ground Function
+32. AWS Pinpoint
+33. AWS Architecture & Eco System
     1.  whitepapers
     2.  operation excellence
     3.  security
@@ -201,4 +203,4 @@ https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/ to d
     8.  aws ecosystem
     9.  aws knowledge center
     10. aws IQ & re:post
-35. Questions asked during the courses/quizes
+34. Questions asked during the courses/quizes
