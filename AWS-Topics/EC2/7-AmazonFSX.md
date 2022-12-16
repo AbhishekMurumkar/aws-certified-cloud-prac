@@ -12,3 +12,10 @@
 ## Amazon FSx for lustre-->(Linux + cluster)
 
 * this is used when you need a fully managed, scalable file storage for **High performance computing**(HPC)
+* Usecases
+  * machine learning
+  * video processing
+  * financial modelling
+* scales up to 100GB/s, millions of IOPs, sub-ms latencies
+* THis can be connected to your corporate data centers or through ec2 instances directly within in AWS 
+* THis one directly stores data on S3 
